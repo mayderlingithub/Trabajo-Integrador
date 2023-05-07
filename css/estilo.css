@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja1codo{
+    background-color: rgb(53, 58, 64);
+    display: flex;
+}
+.caja1codo1{
+    color: white;
+    display: flex;
+    width: 50%;
+}
+.caja1codo1 img{
+    width: 100px;
+}
+
+.caja1codo2{
+    color: white;
+    width: 50%;
+}
+
+.caja1codo2 a{
+    color: white;
+}
+.imgPrincipal{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 1.7rem;
+}
+.mainPrincipal{
+    background-color: aqua;
+}
+
+.padreCards{
+    display: flex;
+    background-color: brown;
+}
+.cards{
+    margin: 10px;
+    width: 430px;
+    height: 690px;
+    background-color: blueviolet;
+}
+
+.cards img{
+    width: 100%;
+}
