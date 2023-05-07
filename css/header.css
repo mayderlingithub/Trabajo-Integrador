@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    position: fixed;
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    z-index: 10;
+}
+
+.logo{
+    width: 50%;
+    margin-left: 5%;
+    display: flex;
+}
+.img-logo{
+    width: 15%;
+}
+.titulo{
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navegador{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+}
+.nav{
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 5%;
+}
+.nav:hover{
+    color: rgba(255, 255, 255, 0.747);
+}
+.nav1{
+    color: rgb(156, 154, 154);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 5%;
+}
+.nav1:hover{
+    color: #ffffffe3;
+}
+
+
+.btn{
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.2s;
+    font-size: 1.2rem;
+}
+.btn-btn{
+    color: rgb(5, 156, 5);
+} 
+.btn-btn:hover{
+    background-color: rgb(5, 141, 5);
+    color: white;
+}

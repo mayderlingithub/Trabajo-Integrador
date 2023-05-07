@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    display: flex;
+    box-sizing: border-box;
+    align-items: flex-end;
+    justify-content: right;
+    background-position: c;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(0 0 0 /.5), rgb(0 0 0 /.5)), url(../assets/img/ba1.jpg); 
+}
+.wrap-texto{
+    color: white;
+    width: 40%;
+    font-size: 1.3rem;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+    padding-right: 10px;
+    position: absolute;
+    
+}
+.botonBanner{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    margin: 5px;
+    text-align: right;
+
+}
+.btn-btn1{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-style:solid;
+    border-width: thin;
+    border-radius: 5px;
+    margin: 2.5px;
+    width: 50%;
+
+
+} 
+.btn-btn1:hover{
+    background-color: white;
+    color: #000;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+.btn-btn1:active{
+    background-color: rgb(33, 92, 33);
+}
+
+.btn-btnn{
+    color: rgba(231, 225, 225, 0.842);
+    background-color: rgb(27, 151, 27);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 2.5px;
+    transition: 0.2s;
+    width: 50%;
+} 
+.btn-btnn:hover{
+    background-color: rgb(6, 126, 6);
+    color: white;
+}
+
+.btn-prev, .btn-next{
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.btn-prev:hover, .btn-next:hover{
+    background: rgba(255, 255, 255, 1);
+}
+.btn-prev{
+    left: 10px;
+}
+.btn-next{
+    right: 10px;
+}

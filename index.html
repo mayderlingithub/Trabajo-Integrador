@@ -4,58 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo Intregrador</title>
-    <link rel="stylesheet" href="./css/estilo.css">
-</head>
-<body>
-    <div class="caja1codo">
-        <div class="caja1codo1">
-            <img src="./assets/img/codoacodo.png" alt="Codo a codo">
-            <h2>Conf Bs As</h2>
-        </div>
-        <div class="caja1codo2">
-            <a href="">La conferencia</a>
-            <a href="">Los ordenadores</a>
-            <a href="">El lugar y la fecha</a>
-            <a href="">Conviertete en orador</a>
-            <a href="">Compra tickets</a>
-        </div>
-    </div>
-    <img class="imgPrincipal" src="./assets/img/ba1.jpg" alt="Imagen principal">
-    <h1>Conf Bs As</h1>
-    <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de codo a codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-    <a href="">Quiero ser orador</a>
-    <a href="">Comprar tickets</a>
+    <title>Confi.BsAs</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./pages/tickets.html">
 
-    <main class="mainPrincipal">
-        <div  class="title">
-            <h3>conoce a los</h3>
-            <h4>ORADORES</h4>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="img-logo" src="./assets/img/codoacodo.png" alt="logo">
+            <h1 class="titulo">Conf Bs As</h1>
         </div>
-        <div class="padreCards">
-            <div class="cards">
-                <img src="./assets/img/steve.jpg" alt="steve jobs">
-                <a href="">JavaScript</a>
-                <a href="">React</a>
-                <h2>Steve Jobs</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio laborum iste necessitatibus maiores, alias ullam! Impedit voluptatibus maxime culpa, quasi cum assumenda nobis rerum fugit. Amet ullam in blanditiis voluptatibus.</p>
+        <nav class="navegador">
+            <a class="nav" href="">La conferencia</a>
+            <a class="nav1" href="">Los oradores</a>
+            <a class="nav1" href="">El lugar y la fecha</a>
+            <a class="nav1" href="">Conviértete en orador</a>
+            <a class="btn btn-btn" href="">Comprar Tickets</a>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="c-slider">
+            <div class="wrap">
+                <div class="wrap-texto">
+                    <h2>Conf Bs As</h2>
+                    <br>
+                    <br>
+                    <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te Esperamos</p>
+                    <br>
+                    <div>
+                        <a class="btn-btn1" href="">Quiero ser Orador</a>
+                        <a class="btn-btnn" href="">Comprar Tickets</a>
+                    </div>
+                </div>
             </div>
-            <div class="cards">
-                <img src="./assets/img/bill.jpg" alt="bill gates">
-                <a href="">JavaScript</a>
-                <a href="">React</a>
-                <h2>Bill Gates</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio laborum iste necessitatibus maiores, alias ullam! Impedit voluptatibus maxime culpa, quasi cum assumenda nobis rerum fugit. Amet ullam in blanditiis voluptatibus.</p>
-            </div>
-            <div class="cards">
-                <img src="./assets/img/ada.jpeg" alt="ada lovelace">
-                <a href="">Negocios</a>
-                <a href="">Startups</a>
-                <h2>Ada lovelace</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio laborum iste necessitatibus maiores, alias ullam! Impedit voluptatibus maxime culpa, quasi cum assumenda nobis rerum fugit. Amet ullam in blanditiis voluptatibus.</p>
-            </div>
+            <div class="btn-prev">&#60;</div>
+            <div class="btn-next">&#62;</div>
         </div>
-    </main>
-    
+        <nav class="navTarjetas">
+            <div class="titulosOradores">
+                <p>CONOCE A LOS<p>
+                <h3>ORADORES</h3>
+            </div>
+            <div class="contenedorTarjetas">
+                <div class="tarjetas">
+                    <img class="img_oradores" src="./assets/img/steve.jpg" alt="steve Jobs">
+                        <div class="javareact">
+                            <a class="java" href=""> <b>JavaScript</b></a>
+                            <a class="react" href=""><b>React</b></a> 
+                        </div>
+                        <br>
+                    <h3 class="sbalorem" >Steve Jobs</h3>
+                    <br>
+                    <p class="sbalorem" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam accusantium obcaecati quia reprehenderit totam quod hic praesentium iste culpa blanditiis eius fuga, repellat beatae rem tenetur at debitis vitae voluptatum.</p>
+                </div>
+                <div class="tarjetas" >
+                    <img class="img_oradores" src="./assets/img/bill.jpg" alt="Bill Gates">
+                    <div class="javareact">
+                        <a class="java" href=""> <b>JavaScript</b></a>
+                        <a class="react" href=""><b>React</b></a> 
+                    </div>
+                    <br>
+                    <h3 class="sbalorem" >Bill Gates</h3>
+                    <br>
+                    <p class="sbalorem" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam accusantium obcaecati quia reprehenderit totam quod hic praesentium iste culpa blanditiis eius fuga, repellat beatae rem tenetur at debitis vitae voluptatum.</p>
+                </div>
+                <div class="tarjetas" >
+                    <img class="img_oradores" src="./assets/img/ada.jpeg" alt="Ada Lovelace">
+                    <div class="javareact">
+                        <a class="java1" href=""> <b>Negocios</b></a>
+                        <a class="react1" href=""><b>Startups</b></a> 
+                    </div>
+                    <br>
+                    <h3 class="sbalorem" >Ada Lovelace</h3>
+                    <br>
+                    <p class="sbalorem" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam accusantium obcaecati quia reprehenderit totam quod hic praesentium iste culpa blanditiis eius fuga, repellat beatae rem tenetur at debitis vitae voluptatum.</p>
+                </div>
+            </div>
+        </nav>
+        <section class="section_flex" >
+                <img class="imgHonolulu" src="./assets/img/honolulu.jpg" alt="honolulu">
+            <div class="classOctubre" >
+                <h4 class="parrafo">Bs As - Octumbre</h4>
+                <br>
+                <p class="parrafo1">Buenos Aires es la provincia y la localidad mas grande del estado Argentina, y en los Estado Unidos, Honolulu es la mas sureña de entre las principales ciudades estadounidense. Aunque el nombre de Honolulu se refiere al area urbana de la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu ha formado una ciudad- condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</p>
+                <br>
+                <a class="conoceMas" href="">Conocé más</a>
+            </div>
+        </section>
+        <section class="formulario">
+            <div class="sec_oradores">
+                <p>CONVIÉRTETE EN UN <br><b>ORADOR</b></p>
+                <br>
+                <P>Anótate como orador para dar una <a class="charlaignite" href="">charla ignite.</a>  Cuéntanos de que quiere hablar!</P>
+            </div>
+            <div class="padreInput">
+                <input class="inputA" type="text" placeholder="Nombre" required>
+                <input class="inputB" type="text" placeholder="Apellido" required>
+            </div>
+            <div class="inputC">
+                <textarea class="inputTarea" name="" id="" cols="30" rows="5" placeholder="Sobre que quieres Hablar" required></textarea>
+                <p class="recuerdaTexto">Recuerda Incluir un título para tu charla.</p>
+                <input class="enviarInput" type="submit" value="Enviar">
+            </div>
+        </section>
+    </section>
+    <footer class="footer">
+        <a class="footer_inf" href="">Preguntas frecuentes</a>
+        <a class="footer_inf" href="">Cóntactanos</a>
+        <a class="footer_inf" href="">Prensa</a>
+        <a class="footer_inf" href="">Conferencias</a>
+        <a class="footer_inf" href="">Términos y condiciones</a>
+        <a class="footer_inf" href="">Privacidad</a>
+        <a class="footer_inf" href="">Estudiantes</a>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

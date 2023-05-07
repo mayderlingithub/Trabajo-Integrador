@@ -1,0 +1,49 @@
+.section_flex{
+width: 100vw;
+display: flex;
+}
+.classOctubre{
+    display: flex;
+    background-color: rgba(61, 59, 59, 0.959);
+    width: 50%;
+    height: auto;
+    font-size: 1rem;
+    color: white;
+    flex-direction: column;
+    margin-left: 0.25px;
+    padding: 15px;
+}
+.imgHonolulu{
+    height: 100%;
+    width: 50%;
+    margin-right: 0.25px;
+}
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+
+}
+.parrafo1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+.conoceMas{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-style:solid;
+    border-width: thin;
+    border-radius: 5px;
+    margin: 2.5px;
+    width: 13%;
+
+} 
+.conoceMas:hover{
+    background-color: rgba(165, 161, 161, 0.678);
+    color: #000;
+    border-radius: 5px;
+    transition: 0.1s;
+
+}

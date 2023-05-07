@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.formulario{
+    width: 800px;
+    height: 510px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 4px;
+    font-family: 'Calibri', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.sec_oradores b{
+    font-size: 2.5rem;
+}
+.charlaignite{
+    border-style: none none dotted none;
+    color: black;
+}
+.padreInput{
+    display: flex;
+    margin-top: 5px;
+}
+.inputA{
+    width: 50%;
+    padding: 5px;
+    margin: 2.5px;
+}
+.inputB{
+    width: 50%;
+    padding: 5px;
+    margin: 2.5px;
+}
+.inputTarea{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 2.5px;
+}
+.enviarInput{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: rgb(150, 201, 62);
+    color: rgba(255, 255, 255, 0.89);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.enviarInput:hover{
+    background-color: rgb(125, 165, 57);
+    color: white;
+}
+
+.recuerdaTexto{
+    width: 100%;
+    padding-bottom: 15px;
+    text-align: left;
+}
